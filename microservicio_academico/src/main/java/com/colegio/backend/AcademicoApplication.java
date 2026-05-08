@@ -1,11 +1,11 @@
-package com.colegio.bff;
+package com.colegio.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BffApplication {
+public class AcademicoApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BffApplication.class, args);
+        SpringApplication.run(AcademicoApplication.class, args);
     }
 }

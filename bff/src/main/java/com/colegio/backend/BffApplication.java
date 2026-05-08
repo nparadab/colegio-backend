@@ -9,3 +9,4 @@ public class BffApplication {
         SpringApplication.run(BffApplication.class, args);
     }
 }
+

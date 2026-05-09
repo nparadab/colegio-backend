@@ -1,10 +1,21 @@
 package com.colegio.backend.dto;
 
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+
 public class AlumnoDTO {
     private Long id;
+
+    @NotBlank(message = "El nombre es obligatorio")
     private String nombre;
+
+    @NotBlank(message = "El RUT es obligatorio")
     private String rut;
+
+    @NotBlank(message = "El curso es obligatorio")
     private String curso;
+
+    @Email(message = "Correo inválido")
     private String correo;
 
     // Getters y setters

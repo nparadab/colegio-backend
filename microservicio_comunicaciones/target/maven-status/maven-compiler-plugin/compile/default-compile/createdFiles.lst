@@ -1,0 +1,8 @@
+com\colegio\backend\ComunicacionesApplication.class
+com\colegio\backend\config\RestTemplateConfig.class
+com\colegio\backend\service\ComunicacionService.class
+com\colegio\backend\controller\ComunicacionController.class
+com\colegio\backend\dto\MensajeRequest.class
+com\colegio\backend\dto\AlumnoResumenDTO.class
+com\colegio\backend\dto\MensajeResponse.class
+com\colegio\backend\config\CorsConfig.class
